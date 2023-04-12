@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "str_fields": [
+      "PN",
+      "DESCRIPTION",
+      "LOCATION",
+      "CONDITION",
+      "PO",
+      "UOM",
+      "CERT SOURCE",
+      "MFG",
+      "REMARK"
+    ],
+    "int_fields": [
+      "RECEIVER#",
+      "BATCH#",
+      "Qty",
+      "SN",
+      "LOT#"
+    ],
+    "date_fields": [
+      "EXP DATE",
+      "REC.DATE",
+      "DOM"
+    ],
+    "list_fields": [
+      "NOTES"
+    ]
+  },
+  "order": [
+    "PN", "SN", "DESCRIPTION", "LOCATION", "CONDITION", "RECEIVER#", "UOM", "EXP DATE", "PO", "CERT SOURCE",
+    "REC.DATE", "MFG", "BATCH#", "DOM", "REMARK", "TAGGED BY", "Qty", "NOTES"
+  ]
+}
